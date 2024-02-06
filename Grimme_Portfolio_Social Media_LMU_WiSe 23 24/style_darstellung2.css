@@ -1,0 +1,145 @@
+body{
+    background-image:url(https://i.pinimg.com/originals/c9/b0/4c/c9b04c9f2a32bff64df2aa23a3f40adb.jpg);
+    background-size: cover;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(69, 41, 91);
+}
+#text {
+    text-align: left;
+}
+h1 {
+    font-size: 60px;
+    color: rgb(187, 187, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3c0c0c;
+  }
+  
+  .edit-btn,
+  .remove-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #0a0a0a;
+    color: #ff6b6b;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .remove-btn {
+    background-color: #f44336;
+  }
+  
+ 
+  .add-update-section {
+    padding: 0px 0px 20px;
+  }
+  
+  .add-update-form {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+  }
+  
+  .add-update-form label {
+    display: block;
+  }
+  
+  .add-update-form input {
+    padding: 5px;
+  }
+  
+  .add-update-form button {
+    padding: 7px;
+  }
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+color: rgb(212, 212, 212);
+
+}
+
+table {
+    margin-left: 400px;
+}
+
+
+h2{
+    color: rgb(204, 204, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+p{
+    color: #070038;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: small;
+}
+h3{
+    color: rgb(150, 150, 150);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px; /* Verschiebt den Text um 20 Pixel nach unten */
+    
+    
+    
+}
+h4{
+    color: rgb(193, 15, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5{
+    color: rgb(255, 72, 109);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text a {
+    margin-left: 400px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ #text h1{
+    margin-left: 400px;
+ }   
+
+ img {
+    position: relative;
+    top: -300px;
+}
+   
+.bild-grid {
+    display: grid; /* Grid-Layout verwenden */
+    grid-template-columns: repeat(3, 1fr); /* Drei Spalten mit gleicher Breite */
+    gap: 10px; /* Abstand zwischen den Bildern */
+}
+.bild-grid {
+    margin-top: 500px; /* Verschiebt das Grid um 20 Pixel nach unten */
+}
+
